@@ -5,7 +5,7 @@ function setup() {
 function draw() {
   background(220);
   if (mouseIsPressed === true) {
-    fill(0);
+    fill("red");
   } else {
     fill(225);
   }
